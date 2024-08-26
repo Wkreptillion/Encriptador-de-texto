@@ -151,8 +151,8 @@ footer p {
     font-size: 1.25rem;
     color: #0A3871;
     margin-bottom: 10px;
-    text-align: center; /* Centra el texto horizontalmente */
-    width: 100%; /* Asegura que el párrafo ocupe todo el ancho del contenedor */
+    text-align: center; 
+    width: 100%; 
 }
 
 

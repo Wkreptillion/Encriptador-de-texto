@@ -9,7 +9,7 @@ function btnEncriptar() {
     textArea.value = "";
     mensaje.style.backgroundImage = "none";
     leyenda.textContent = "Tu texto encriptado es:";
-    actualizarBotonCopiar(); // Actualiza la visibilidad del botón Copiar
+    actualizarBotonCopiar(); 
 }
 
 function encriptar(stringEncriptado) {
@@ -52,11 +52,10 @@ function copiarTexto() {
 
 function actualizarBotonCopiar() {
     if (mensaje.value.trim() === "") {
-        botonCopiar.style.display = "none"; // Oculta el botón si el recuadro está vacío
+        botonCopiar.style.display = "none"; 
     } else {
-        botonCopiar.style.display = "block"; // Muestra el botón si hay texto
+        botonCopiar.style.display = "block"; 
     }
 }
 
-// Inicializar la visibilidad del botón cuando la página carga
 document.addEventListener("DOMContentLoaded", actualizarBotonCopiar);
